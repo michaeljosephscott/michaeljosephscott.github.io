@@ -5,8 +5,8 @@
 * { margin: 0; box-sizing: border-box; }
 
 body {
-    font-size: 17px;
-    line-height: 53px;
+    font-size: 16px;
+    line-height: 32px;
     font-family: Georgia, Tahoma, Times New Roman;
     color: black;
     background-color:lightslategrey;
@@ -15,28 +15,28 @@ body {
 
 h1 {
     font-size: 2.6rem; /* x.xrem  (rem is a unit of measure) */
-    color:;
+    color:darkmagenta;
 }
 
 h2 {
-    font-size: 2.xrem;
+    font-size: 6.xrem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
 
 header, main, footer {
-    margin: 1.25rem auto;
+    margin: 2.4rem auto;
     padding: .5rem;
-    max-width: 1111px;
+    max-width:888px;
 } /*max-width changes length of colors borders*/
 
 header, footer, footer a {
     text-align: center;
     background-color: lightsteelblue;
-    color: purple;
+    color: darkcyan;
 }
 header img {
-    width: 13; /* last updated here*/
+    width: 200px; /* last updated here*/
     height: auto; /* auto was here */
     float: right;
 }
